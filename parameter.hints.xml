@@ -1,14 +1,15 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
-      <blacklist language="Java">
-        <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
-      </blacklist>
       <blacklist language="TypeScript">
         <added pattern="Array.map(callbackfn,thisArg)" />
         <added pattern="Array.filter(callbackfn,thisArg)" />
         <added pattern="Array.reduce(callbackfn)" />
         <added pattern="ObjectConstructor.assign(target,source)" />
+        <added pattern="ChartConfiguration.seriesKey(key)" />
+      </blacklist>
+      <blacklist language="Java">
+        <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
       </blacklist>
     </blacklists>
   </component>
