@@ -7,6 +7,7 @@
         <added pattern="Array.reduce(callbackfn)" />
         <added pattern="ObjectConstructor.assign(target,source)" />
         <added pattern="ChartConfiguration.seriesKey(key)" />
+        <added pattern="TranslateService.instant(key,interpolateParams)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
