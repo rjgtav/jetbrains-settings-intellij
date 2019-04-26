@@ -10,6 +10,7 @@
         <added pattern="TranslateService.instant(key,interpolateParams)" />
         <added pattern="Array.forEach(callbackfn,thisArg)" />
         <added pattern="Array.find(predicate,thisArg)" />
+        <added pattern="Array.sort(compareFn)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
