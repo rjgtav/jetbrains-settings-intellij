@@ -12,6 +12,7 @@
         <added pattern="Array.find(predicate,thisArg)" />
         <added pattern="Array.sort(compareFn)" />
         <added pattern="Math.floor(x)" />
+        <added pattern="Function.apply(thisArg,argArray)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
