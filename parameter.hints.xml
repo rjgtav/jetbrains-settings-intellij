@@ -13,6 +13,7 @@
         <added pattern="Array.sort(compareFn)" />
         <added pattern="Math.floor(x)" />
         <added pattern="Function.apply(thisArg,argArray)" />
+        <added pattern="ChartAPI.load(args)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
