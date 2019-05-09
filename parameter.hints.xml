@@ -14,6 +14,8 @@
         <added pattern="Math.floor(x)" />
         <added pattern="Function.apply(thisArg,argArray)" />
         <added pattern="ChartAPI.load(args)" />
+        <added pattern="Array.findIndex(predicate,thisArg)" />
+        <added pattern="Math.min(values)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
