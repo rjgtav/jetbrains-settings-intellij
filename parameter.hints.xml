@@ -16,6 +16,7 @@
         <added pattern="ChartAPI.load(args)" />
         <added pattern="Array.findIndex(predicate,thisArg)" />
         <added pattern="Math.min(values)" />
+        <added pattern="String.split(separator,limit)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
