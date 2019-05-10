@@ -17,6 +17,7 @@
         <added pattern="Array.findIndex(predicate,thisArg)" />
         <added pattern="Math.min(values)" />
         <added pattern="String.split(separator,limit)" />
+        <added pattern="CalendarPickerModel.constructor(config)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
