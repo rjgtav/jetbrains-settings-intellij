@@ -18,6 +18,7 @@
         <added pattern="Math.min(values)" />
         <added pattern="String.split(separator,limit)" />
         <added pattern="CalendarPickerModel.constructor(config)" />
+        <added pattern="Date.setFullYear(year,month,date)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
