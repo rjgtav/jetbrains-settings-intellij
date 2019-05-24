@@ -20,6 +20,7 @@
         <added pattern="CalendarPickerModel.constructor(config)" />
         <added pattern="Date.setFullYear(year,month,date)" />
         <added pattern="Math.abs(x)" />
+        <added pattern="Selection.selectAll(selector)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
