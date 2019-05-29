@@ -21,6 +21,7 @@
         <added pattern="Date.setFullYear(year,month,date)" />
         <added pattern="Math.abs(x)" />
         <added pattern="Selection.selectAll(selector)" />
+        <added pattern="Math.max(values)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
