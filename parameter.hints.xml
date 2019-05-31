@@ -22,6 +22,8 @@
         <added pattern="Math.abs(x)" />
         <added pattern="Selection.selectAll(selector)" />
         <added pattern="Math.max(values)" />
+        <added pattern="Date.setMonth(month,date)" />
+        <added pattern="map(project,thisArg)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
