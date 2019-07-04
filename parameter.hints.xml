@@ -27,6 +27,7 @@
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
+        <added pattern="org.hibernate.query.QueryProducer.createNativeQuery(sqlString,resultClass)" />
       </blacklist>
     </blacklists>
   </component>
