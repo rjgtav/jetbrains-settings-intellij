@@ -24,6 +24,11 @@
         <added pattern="Math.max(values)" />
         <added pattern="Date.setMonth(month,date)" />
         <added pattern="map(project,thisArg)" />
+        <added pattern="post(path,handlers)" />
+        <added pattern="asyncHandler(handler)" />
+        <added pattern="handlerAsync(handler)" />
+        <added pattern="handler$(handler)" />
+        <added pattern="handler$Authenticated(handler)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
