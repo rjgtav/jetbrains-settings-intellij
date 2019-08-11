@@ -31,6 +31,7 @@
         <added pattern="handler$Authenticated(handler)" />
         <added pattern="Promise(executor)" />
         <added pattern="CitiusService.request(method,url,form,session)" />
+        <added pattern="CitiusService.$post(url,form,session)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
