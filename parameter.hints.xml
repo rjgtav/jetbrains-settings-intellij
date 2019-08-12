@@ -37,6 +37,7 @@
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
         <added pattern="org.hibernate.query.QueryProducer.createNativeQuery(sqlString,resultClass)" />
         <added pattern="java.lang.String.format(s,objects)" />
+        <added pattern="java.sql.Connection.prepareStatement(s)" />
       </blacklist>
     </blacklists>
   </component>
