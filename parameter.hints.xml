@@ -39,6 +39,7 @@
         <added pattern="java.lang.String.format(s,objects)" />
         <added pattern="java.sql.Connection.prepareStatement(s)" />
         <added pattern="java.lang.Long.parseLong(s)" />
+        <added pattern="java.time.LocalDate.of(i,i1,i2)" />
       </blacklist>
     </blacklists>
   </component>
