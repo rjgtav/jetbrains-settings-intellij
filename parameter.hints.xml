@@ -40,6 +40,7 @@
         <added pattern="java.sql.Connection.prepareStatement(s)" />
         <added pattern="java.lang.Long.parseLong(s)" />
         <added pattern="java.time.LocalDate.of(i,i1,i2)" />
+        <added pattern="com.climber.shared.multitenancy.MultiTenantTask.debug(message,args)" />
       </blacklist>
     </blacklists>
   </component>
