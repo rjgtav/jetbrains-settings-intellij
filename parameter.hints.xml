@@ -45,6 +45,7 @@
         <added pattern="com.climber.shared.multitenancy.BatchService.preparedStatementResult(sql,i)" />
         <added pattern="javax.persistence.EntityManager.createNativeQuery(sqlString)" />
         <added pattern="org.hibernate.query.QueryProducer.createNativeQuery(sqlString)" />
+        <added pattern="com.climber.shared.multitenancy.MultiTenantTask.warn(message,args)" />
       </blacklist>
     </blacklists>
   </component>
