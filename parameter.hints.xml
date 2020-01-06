@@ -32,6 +32,9 @@
         <added pattern="Promise(executor)" />
         <added pattern="CitiusService.request(method,url,form,session)" />
         <added pattern="CitiusService.$post(url,form,session)" />
+        <added pattern="TableV2CellKpi$Transform.format(value,value_before)" />
+        <added pattern="TableV2CellKpi.format(value,value_before)" />
+        <added pattern="PipeTransform.transform(value,args)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
