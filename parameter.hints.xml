@@ -36,6 +36,7 @@
         <added pattern="TableV2CellKpi.format(value,value_before)" />
         <added pattern="PipeTransform.transform(value,args)" />
         <added pattern="KpiCurrencyPipe.format(value)" />
+        <added pattern="Utils.numberClean(value)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
