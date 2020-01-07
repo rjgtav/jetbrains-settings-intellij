@@ -39,6 +39,7 @@
         <added pattern="Utils.numberClean(value)" />
         <added pattern="$KpiPipe.transform(value,value_before)" />
         <added pattern="$KpiPipe.transformPickup(value,value_before)" />
+        <added pattern="DomSanitizer.bypassSecurityTrustStyle(value)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
