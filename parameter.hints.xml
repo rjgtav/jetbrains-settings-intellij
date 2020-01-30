@@ -42,6 +42,7 @@
         <added pattern="DomSanitizer.bypassSecurityTrustStyle(value)" />
         <added pattern="Utils.objectClone(object)" />
         <added pattern="Subject.next(value)" />
+        <added pattern="CRUDService.put(value)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
