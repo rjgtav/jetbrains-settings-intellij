@@ -43,6 +43,7 @@
         <added pattern="Utils.objectClone(object)" />
         <added pattern="Subject.next(value)" />
         <added pattern="CRUDService.put(value)" />
+        <added pattern="$KpiPipe.transformComparison(value,value_past)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
