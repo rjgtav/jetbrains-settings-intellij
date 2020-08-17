@@ -59,6 +59,7 @@
         <added pattern="org.hibernate.query.QueryProducer.createNativeQuery(sqlString)" />
         <added pattern="com.climber.shared.multitenancy.MultiTenantTask.warn(message,args)" />
         <added pattern="org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(index)" />
+        <added pattern="java.util.function.BiFunction.apply(t,u)" />
       </blacklist>
     </blacklists>
   </component>
