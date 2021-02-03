@@ -18,4 +18,8 @@
   <component name="SqlEditorOptions">
     <option name="concatenateStringsOnEnter" value="false" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+  </component>
 </application>
