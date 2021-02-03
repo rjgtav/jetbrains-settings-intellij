@@ -1,0 +1,66 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript">
+        <added pattern="Array.map(callbackfn,thisArg)" />
+        <added pattern="Array.filter(callbackfn,thisArg)" />
+        <added pattern="Array.reduce(callbackfn)" />
+        <added pattern="ObjectConstructor.assign(target,source)" />
+        <added pattern="ChartConfiguration.seriesKey(key)" />
+        <added pattern="TranslateService.instant(key,interpolateParams)" />
+        <added pattern="Array.forEach(callbackfn,thisArg)" />
+        <added pattern="Array.find(predicate,thisArg)" />
+        <added pattern="Array.sort(compareFn)" />
+        <added pattern="Math.floor(x)" />
+        <added pattern="Function.apply(thisArg,argArray)" />
+        <added pattern="ChartAPI.load(args)" />
+        <added pattern="Array.findIndex(predicate,thisArg)" />
+        <added pattern="Math.min(values)" />
+        <added pattern="String.split(separator,limit)" />
+        <added pattern="CalendarPickerModel.constructor(config)" />
+        <added pattern="Date.setFullYear(year,month,date)" />
+        <added pattern="Math.abs(x)" />
+        <added pattern="Selection.selectAll(selector)" />
+        <added pattern="Math.max(values)" />
+        <added pattern="Date.setMonth(month,date)" />
+        <added pattern="map(project,thisArg)" />
+        <added pattern="post(path,handlers)" />
+        <added pattern="asyncHandler(handler)" />
+        <added pattern="handlerAsync(handler)" />
+        <added pattern="handler$(handler)" />
+        <added pattern="handler$Authenticated(handler)" />
+        <added pattern="Promise(executor)" />
+        <added pattern="CitiusService.request(method,url,form,session)" />
+        <added pattern="CitiusService.$post(url,form,session)" />
+        <added pattern="TableV2CellKpi$Transform.format(value,value_before)" />
+        <added pattern="TableV2CellKpi.format(value,value_before)" />
+        <added pattern="PipeTransform.transform(value,args)" />
+        <added pattern="KpiCurrencyPipe.format(value)" />
+        <added pattern="Utils.numberClean(value)" />
+        <added pattern="$KpiPipe.transform(value,value_before)" />
+        <added pattern="$KpiPipe.transformPickup(value,value_before)" />
+        <added pattern="DomSanitizer.bypassSecurityTrustStyle(value)" />
+        <added pattern="Utils.objectClone(object)" />
+        <added pattern="Subject.next(value)" />
+        <added pattern="CRUDService.put(value)" />
+        <added pattern="$KpiPipe.transformComparison(value,value_past)" />
+      </blacklist>
+      <blacklist language="Java">
+        <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
+        <added pattern="org.hibernate.query.QueryProducer.createNativeQuery(sqlString,resultClass)" />
+        <added pattern="java.lang.String.format(s,objects)" />
+        <added pattern="java.sql.Connection.prepareStatement(s)" />
+        <added pattern="java.lang.Long.parseLong(s)" />
+        <added pattern="java.time.LocalDate.of(i,i1,i2)" />
+        <added pattern="com.climber.shared.multitenancy.MultiTenantTask.debug(message,args)" />
+        <added pattern="com.climber.shared.multitenancy.BatchService.preparedStatementExecute(sql)" />
+        <added pattern="com.climber.shared.multitenancy.BatchService.preparedStatementResult(sql,i)" />
+        <added pattern="javax.persistence.EntityManager.createNativeQuery(sqlString)" />
+        <added pattern="org.hibernate.query.QueryProducer.createNativeQuery(sqlString)" />
+        <added pattern="com.climber.shared.multitenancy.MultiTenantTask.warn(message,args)" />
+        <added pattern="org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(index)" />
+        <added pattern="java.util.function.BiFunction.apply(t,u)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
